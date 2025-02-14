@@ -14,5 +14,6 @@ if n >= 0 or m >= 0 or x >= 0:
     horas=t//60
     minu=t%60
     print(f"El tiempo es de: horas:{horas} minutos {minu}")
+#Se muestra si los valores son negativos
 else:
     print("Error, solo numeros positivos")
