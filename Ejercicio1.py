@@ -9,9 +9,3 @@ n=input(float("Ingrese la Cantidad de preguntas: "))
 m=input(int("Ingrese la Cantidad de minutos: "))
 x=input(int("Ingrese la cantidad de Estuiantes: "))
 # Se realiza la variable while
-if n >=0 or m >=0 or x >=0:
-    
-else:
-    print("Error, el valor ingresado debe ser Positivos")
-
-#Se hacen variable para poder realizar las conversiones y loa inputs
