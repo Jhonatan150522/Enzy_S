@@ -5,14 +5,14 @@
 #culminar el algoritmo.
 
 #Se realiza el input para que el profesor ingrese los valores 
-n=input(float("Ingrese la Cantidad de preguntas: "))
-m=input(int("Ingrese la Cantidad de minutos: "))
-x=input(int("Ingrese la cantidad de Estuiantes: "))
+n=float(input("Ingrese la Cantidad de preguntas: "))
+m=int(input("Ingrese la Cantidad de minutos: "))
+x=int(input("Ingrese la cantidad de Estuiantes: "))
 # Se realiza la condicional if
 if n >= 0 or m >= 0 or x >= 0:
     t=n*m*x
     horas=t//60
     minu=t%60
-    print(f,"El tiempo es de: horas:{horas} minutos {minu}")
+    print(f"El tiempo es de: horas:{horas} minutos {minu}")
 else:
     print("Error, solo numeros positivos")
