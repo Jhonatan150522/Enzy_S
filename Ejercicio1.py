@@ -8,4 +8,11 @@
 n=input(float("Ingrese la Cantidad de preguntas: "))
 m=input(int("Ingrese la Cantidad de minutos: "))
 x=input(int("Ingrese la cantidad de Estuiantes: "))
-# Se realiza la variable while
+# Se realiza la condicional if
+if n >= 0 or m >= 0 or x >= 0:
+    t=n*m*x
+    horas=t//60
+    minu=t%60
+    print(f,"El tiempo es de: horas:{horas} minutos {minu}")
+else:
+    print("Error, solo numeros positivos")
